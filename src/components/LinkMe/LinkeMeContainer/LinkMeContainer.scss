@@ -1,0 +1,36 @@
+@import '../../../variables.scss';
+
+.linkMe__items__item__container {
+  display: block;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: left;
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+  background: $linkme-background;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.03s;
+  overflow: hidden;
+}
+
+.linkMe__items__item {
+  display: flex;
+  align-items: center;
+}
+
+.linkMe__items__item__image {
+  display: block;
+  height: 62px;
+  box-shadow: 0px 0px 5px #000000;
+}
+
+.linkMe__items__item__title {
+  flex: 1;
+  padding: 20px;
+}
+
+.linkMe__items__item__caret {
+  padding: 20px;
+}

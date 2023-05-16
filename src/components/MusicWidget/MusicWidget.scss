@@ -1,0 +1,34 @@
+@import '../../variables.scss';
+
+.musicWidget {
+  display: flex;
+  color: $dark-color;
+  text-align: center;
+  padding-bottom: 2em;
+  justify-content: center;
+  background-color: $dark-color;
+}
+
+.musicWidget__item {
+  color: $dark-color;
+  line-height: 1.5625em;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .musicWidget {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-position: right 35% bottom 90%;
+  }
+
+  .musicWidget__itemDescription {
+    text-align: left;
+    line-height: 1.5625em;
+    margin: 1em 1em 2em 1em;
+    font-style: italic;
+    width: 100%;
+  }
+}

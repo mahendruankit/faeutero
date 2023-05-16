@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.latestVideo {
+  margin: 1em;
+}
+
+.latestVideo__youtube {
+  text-align: center;
+  margin-bottom: 1.25em;
+}
+
+.latestVideo__video {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  background-color: $dark-color;
+}
+
+.latestVideo iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

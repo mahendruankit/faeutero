@@ -1,0 +1,102 @@
+@import '../../variables.scss';
+
+.shop__products__poi {
+  display: flex;
+  flex-flow: row;
+  overflow-x: scroll;
+}
+
+.shop__products__poi__item {
+  display: inline-block;
+  line-height: 1.5625em;
+  font-weight: 400;
+  flex-direction: column;
+  width: calc(100% / 3);
+  text-align: center;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  cursor: pointer;
+  color: $light-color;
+}
+
+.shop__products__poi__item:hover {
+  cursor: pointer;
+  text-decoration: none;
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px $primary-color, 0 4px 8px rgba(0, 0, 0, 0.06);
+  border: solid;
+  border-width: 0.1em;
+  border-color: $primary-color;
+}
+
+.shop__products__poi__item__image img {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.shop__products__poi__item__title,
+.shop__products__poi__item__description {
+  padding-top: 0.5em;
+  white-space: nowrap;
+}
+
+.shop__products__poi__item__price {
+  font-size: 1.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.shop__products__poi__item__add-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.shop__products__poi__item__add-button span:after {
+  content: '\279C';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.shop__products__poi__item__add-button:hover span {
+  padding-right: 25px;
+}
+
+.shop__products__poi__item__add-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@media screen and (max-width: 779px) {
+  .shop__products__poi {
+    overflow-x: scroll;
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      $light-color 10px,
+      $light-color 90%,
+      transparent
+    );
+  }
+
+  .shop__products__poi__item {
+    display: inline-block;
+    width: 100%;
+    margin-right: 20px;
+    line-height: 1.5625em;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,53 @@
+@import '../../variables.scss';
+
+.linkMe {
+  display: flex;
+  justify-content: center;
+  background-color: $dark-color;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.linkMe__items {
+  width: 40%;
+  padding-bottom: 1em;
+  h1 {
+    color: $light-color;
+  }
+}
+
+.linkMe__items__item:hover {
+  background: rgb(255 255 255 / 35%);
+}
+
+.linkMe__userInfoContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.linkMe__userInfo {
+  text-align: center;
+  line-height: 1.5625em;
+  margin: 1em 1em 2em 1em;
+  font-style: italic;
+  width: 60%;
+  white-space: pre-wrap;
+  color: $dark-color;
+}
+
+@media screen and (max-width: 600px) {
+  .linkMe__items {
+    width: 100%;
+  }
+
+  .linkMe__userInfo {
+    text-align: center;
+    line-height: 1.5625em;
+    margin: 1em 1em 2em 1em;
+    font-style: italic;
+    width: 100%;
+  }
+}

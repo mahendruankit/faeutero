@@ -1,0 +1,45 @@
+@import '../../variables.scss';
+
+.promotion__songs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+  grid-gap: 0.625em;
+  margin-top: 1em;
+}
+
+.promotion__highlight__title {
+  text-decoration: none;
+  color: $primary-color;
+  margin-bottom: 1em;
+}
+
+.promotion__song {
+  margin: 1em 1em 0em 1em;
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+}
+
+.promotion__highlight__image {
+  width: 90%;
+  height: auto;
+  border-radius: 1em;
+}
+
+@media screen and (max-width: 600px) {
+  .promotion__song {
+    img {
+      margin-bottom: 1em;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+  }
+}
