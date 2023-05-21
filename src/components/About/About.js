@@ -1,31 +1,35 @@
 import React, { forwardRef } from 'react';
 import imageResource from '../../resources/images';
 import LatestVideo from '../LatestVideo/LatestVideo';
-import Emoji from '../../components/Emoji/Emoji';
+import YouTubeSubscribe from '../YoutubeSubscribe/YoutubeSubscribe';
 import './About.scss';
 
 const About = forwardRef((props, ref) => {
   return (
     <section className='aboutSection' ref={ref}>
       <div className='aboutSection__container'>
-        <div className='aboutSection__avatar'>
-          <img
-            src={imageResource.portfolio.contactMe.avatar}
-            alt='Graduation'
-            className='aboutSection__avatar__image'
-          ></img>
+        <div className='aboutSection__introduction'>
+          <YouTubeSubscribe
+            theme={'default'}
+            layout={'full'}
+            count={'default'}
+          />
+          <LatestVideo />
         </div>
         <div className='aboutSection__introduction'>
-          <div className='spacer'></div>
-          <h3> It's all in the music</h3>
-          <p className='aboutSection__introduction__message'>
-            <i>
-              Generic rock with a twist of introspect & delusion but mostly
-              cringe <Emoji label='Pinched Fingers' symbol='🤌' />{' '}
-            </i>
-          </p>
-          <div className='spacer-large'></div>
-          <LatestVideo />
+          <h3>
+            <strong>
+              <i>It's all in the music</i>
+            </strong>
+          </h3>
+          <h3>
+            <strong>and the rave reviews are in...</strong>
+          </h3>
+          <img
+            src={imageResource.home.emotionalcringe}
+            alt='avatar'
+            className='aboutSection__avatar__image'
+          ></img>
         </div>
       </div>
     </section>

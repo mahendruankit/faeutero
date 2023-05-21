@@ -10,31 +10,17 @@
 
 .aboutSection__container {
   display: flex;
-}
-
-.aboutSection__avatar {
-  width: 40%;
+  flex-wrap: wrap;
 }
 
 .aboutSection__introduction {
-  width: 60%;
-}
-
-.aboutSection__introduction__message {
-  text-align: center;
+  flex: 0 0 50%;
+  padding: 10px;
 }
 
 .aboutSection__avatar__image {
-  width: 100%;
+  width: 90%;
   height: auto;
-}
-
-.about__logo {
-  margin: 1em 3em 1em 3em;
-}
-
-.about__logo img {
-  width: 15%;
 }
 
 @media screen and (max-width: 600px) {

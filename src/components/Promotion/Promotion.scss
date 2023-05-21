@@ -1,5 +1,9 @@
 @import '../../variables.scss';
 
+.promotion__highlight {
+  margin: 1em;
+}
+
 .promotion__songs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
@@ -27,12 +31,18 @@
 }
 
 .promotion__highlight__image {
-  width: 90%;
+  width: 50%;
   height: auto;
   border-radius: 1em;
 }
 
 @media screen and (max-width: 600px) {
+  .promotion__highlight__image {
+    width: 50%;
+    height: auto;
+    border-radius: 0.2em;
+  }
+
   .promotion__song {
     img {
       margin-bottom: 1em;

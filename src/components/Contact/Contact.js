@@ -31,7 +31,9 @@ const Contact = forwardRef((props, ref) => {
   }
   return (
     <section className='contactSection' ref={ref}>
-      <h3 className='contactSection__title'>Contact Me</h3>
+      <h3 className='contactSection__title'>
+        <strong>Contact Me</strong>
+      </h3>
       <div className='contactSection__avatarContainer'>
         <div className='contactSection__avatar'></div>
       </div>

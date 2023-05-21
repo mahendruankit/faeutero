@@ -26,10 +26,4 @@ export default [
     image: imagesResource.promotion.introspectwithout,
     url: stringResource.portfolio.introspectsingle,
   },
-  {
-    id: 5,
-    title: 'alive',
-    image: imagesResource.promotion.alive,
-    url: stringResource.portfolio.alivesingle,
-  },
 ].reverse();

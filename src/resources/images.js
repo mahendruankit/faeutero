@@ -1,17 +1,8 @@
 import avatar from '../images/avatar.png';
 
-import artistlogo from '../images/artistlogo.png';
 import bandlogo from '../images/band-logo.png';
-import hob from '../images/Products/hob.png';
-import lt from '../images/Products/lt.png';
-import hw from '../images/Products/hw.png';
-import introspect from '../images/Products/introspect.png';
-import alive from '../images/Products/alive.png';
-
-import hobwithout from '../images/Products/hobwithout.png';
-import ltwithout from '../images/Products/ltwithout.png';
-import hwwithout from '../images/Products/hwwithout.png';
-import introspectwithout from '../images/Products/introspectwithout.png';
+import hob from '../images/Products/hill-of-beans.png';
+import emotionalcringe from '../images/emotional-cringe.png';
 
 import spotify from '../images/icons/spotify.png';
 import appleMusic from '../images/icons/apple.png';
@@ -32,17 +23,13 @@ const images = {
     avatar: avatar,
     logo: logo,
     websitelogo: websitelogo,
+    emotionalcringe: emotionalcringe,
   },
   product: {
     hob: hob,
-    lt: lt,
-    hw: hw,
-    introspect: introspect,
-    alive: alive,
   },
   music: {
     hob: hob,
-    artistlogo: artistlogo,
     bandlogo: bandlogo,
     spotifylogo: spotifylogo,
     spotify: spotify,
@@ -52,13 +39,7 @@ const images = {
     youtube: youtube,
   },
   icons: {},
-  promotion: {
-    hobwithout: hobwithout,
-    ltwithout: ltwithout,
-    hwwithout: hwwithout,
-    introspectwithout: introspectwithout,
-    alive: alive,
-  },
+  promotion: {},
 };
 
 export default images;

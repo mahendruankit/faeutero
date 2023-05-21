@@ -26,12 +26,6 @@ const latestLinks = [
     url: 'https://youtu.be/FH43bDMRG9s',
     source: imageResource.music.youtube,
   },
-  {
-    id: 5,
-    title: 'alive',
-    url: stringResource.portfolio.alivesingle,
-    source: imageResource.music.youtube,
-  },
 ].reverse();
 
 export default latestLinks;

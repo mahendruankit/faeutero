@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaYoutube, FaBandcamp } from 'react-icons/fa';
+import { FaYoutube, FaBandcamp, FaApple, FaSpotify } from 'react-icons/fa';
 import stringResource from '../../resources/strings';
 import './Social.scss';
 
@@ -13,6 +13,24 @@ export default function Social({ className }) {
           rel='noreferrer'
         >
           <FaYoutube />
+        </a>
+      </div>
+      <div className='social__item'>
+        <a
+          href={stringResource.portfolio.social.applemusic}
+          target='_blank'
+          rel='noreferrer'
+        >
+          <FaApple />
+        </a>
+      </div>
+      <div className='social__item'>
+        <a
+          href={stringResource.portfolio.social.spotify}
+          target='_blank'
+          rel='noreferrer'
+        >
+          <FaSpotify />
         </a>
       </div>
       <div className='social__item'>

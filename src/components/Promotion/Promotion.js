@@ -12,11 +12,11 @@ export default function Promotion() {
             className='promotion__highlight__link'
             target='_blank'
             rel='noreferrer'
-            href={stringResource.portfolio.alivesingle}
+            href={stringResource.portfolio.social.applemusic}
           >
             <img
-              src={imageResource.product.alive}
-              alt='Graduation'
+              src={imageResource.product.hob}
+              alt='hill of beans album'
               className='promotion__highlight__image'
             ></img>
           </a>

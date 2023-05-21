@@ -42,14 +42,4 @@ export default [
     ispostingincluded: false,
     url: stringResource.portfolio.introspectsingle,
   },
-  {
-    id: 5,
-    title: 'alive',
-    description: 'single',
-    image: imagesResource.product.alive,
-    price: 0.99,
-    category: 'music',
-    ispostingincluded: false,
-    url: stringResource.portfolio.alivesingle,
-  },
 ].reverse();
