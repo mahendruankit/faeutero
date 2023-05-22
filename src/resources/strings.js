@@ -15,7 +15,7 @@ const strings = {
     social: {
       soundcloud: 'https://soundcloud.com/user-67884008',
       youtube: 'https://www.youtube.com/channel/UCg2zJzFO0yrYL7YZ1aHXxkg',
-      spotify: 'https://open.spotify.com/artist/2jgvsnDdf6qCve1pikbDqh',
+      spotify: ' https://open.spotify.com/album/3LnfAjyH3aLCJdzeixxhEA',
       applemusic: 'https://music.apple.com/gb/album/hill-of-beans/1688939813',
       bandcamp: 'https://fae-utero.bandcamp.com/album/hill-of-beans',
     },
