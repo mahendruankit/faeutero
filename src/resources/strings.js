@@ -9,6 +9,8 @@ const strings = {
     firebasewebsite: 'https://firebase.google.com/',
     hillofbeansbandcamplink:
       'https://fae-utero.bandcamp.com/album/hill-of-beans',
+    hobmerch:
+      'https://my-store-11630664.creator-spring.com/listing/hill-of-beans',
     youtubelinkltsingle: 'https://youtu.be/dPy0OyQblco',
     youtubelinkhwsingle: 'https://youtu.be/IOoh14F3e0k',
     introspectsingle: 'https://youtu.be/FH43bDMRG9s',

@@ -5,7 +5,6 @@
 }
 
 .shop {
-  
   a {
     display: inline-block;
     margin: 1em 0;
@@ -14,5 +13,28 @@
     color: $nav-item-color;
     font-family: $font-family;
     font-size: $fontsize-nav-item;
+  }
+}
+
+.shop__merch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop__merch__img {
+  width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .shop__merch {
+    flex-direction: column;
+  }
+
+  .shop__merch__img {
+    width: 80%;
+    height: auto;
   }
 }

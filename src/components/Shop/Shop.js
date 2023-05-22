@@ -1,20 +1,60 @@
 import React, { forwardRef } from 'react';
 import stringResource from '../../resources/strings';
+import imageResource from '../../resources/images';
 import Social from '../Social/Social';
+import Emoji from '../Emoji/Emoji';
 
 import './Shop.scss';
 
 const Shop = forwardRef((props, ref) => {
   return (
     <section className='shop' ref={ref}>
-      <a
-        target='_blank'
-        rel='noreferrer'
-        href={stringResource.portfolio.hillofbeansbandcamplink}
-      >
-        <strong>BUY HERE</strong>
-      </a>
+      <div className='shop__buy'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href={stringResource.portfolio.hillofbeansbandcamplink}
+        >
+          <strong>
+            BUY ALBUM <Emoji label='optical disc' symbol='💿' />
+          </strong>
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href={stringResource.portfolio.hobmerch}
+        >
+          <strong>
+            BUY MERCH <Emoji label='t-shirt' symbol='👕' />
+          </strong>
+        </a>
+      </div>
+
       <Social className='shop' />
+      <div className='shop__merch'>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href={stringResource.portfolio.hobmerch}
+        >
+          <img
+            className='shop__merch__img'
+            src={imageResource.merch.merch_h}
+            alt='merch hoodie'
+          ></img>
+        </a>
+        <a
+          target='_blank'
+          rel='noreferrer'
+          href={stringResource.portfolio.hobmerch}
+        >
+          <img
+            className='shop__merch__img'
+            src={imageResource.merch.merch_t}
+            alt='merch t'
+          ></img>
+        </a>
+      </div>
     </section>
   );
 });
