@@ -3,6 +3,7 @@
 .social {
   display: flex;
   justify-content: center;
+  max-width: 100vw;
 }
 
 .social__item {
@@ -19,8 +20,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .social {
+    max-width: 100vw;
+  }
   .social__item {
-    margin: 1em;
-    font-size: large;
+    padding: 0.1em;
   }
 }
