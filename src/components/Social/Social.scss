@@ -7,7 +7,7 @@
 
 .social__item {
   margin: 1em;
-  font-size: x-large;
+  font-size: large;
   a {
     color: $light-color;
   }
@@ -20,7 +20,7 @@
 
 @media only screen and (max-width: 600px) {
   .social__item {
-    margin: 0.1em;
-    font-size: small;
+    margin: 1em;
+    font-size: large;
   }
 }

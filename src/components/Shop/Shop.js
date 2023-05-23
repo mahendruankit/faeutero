@@ -15,18 +15,14 @@ const Shop = forwardRef((props, ref) => {
           rel='noreferrer'
           href={stringResource.portfolio.hillofbeansbandcamplink}
         >
-          <strong>
-            BUY ALBUM <Emoji label='optical disc' symbol='💿' />
-          </strong>
+          BUY ALBUM <Emoji label='optical disc' symbol='💿' />
         </a>
         <a
           target='_blank'
           rel='noreferrer'
           href={stringResource.portfolio.hobmerch}
         >
-          <strong>
-            BUY MERCH <Emoji label='t-shirt' symbol='👕' />
-          </strong>
+          BUY MERCH <Emoji label='skull' symbol='💀' />
         </a>
       </div>
 

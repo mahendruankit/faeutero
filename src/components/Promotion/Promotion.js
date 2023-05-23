@@ -12,7 +12,7 @@ export default function Promotion() {
             className='promotion__highlight__link'
             target='_blank'
             rel='noreferrer'
-            href={stringResource.portfolio.social.applemusic}
+            href={stringResource.portfolio.hobyoutubeplaylist}
           >
             <img
               src={imageResource.product.hob}

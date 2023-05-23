@@ -10,10 +10,21 @@
     margin: 1em 0;
     padding: 0 2em;
     text-decoration: none;
-    color: $nav-item-color;
+    color: $light-color;
     font-family: $font-family;
     font-size: $fontsize-nav-item;
   }
+}
+
+.shop__buy {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+.shop__buy a {
+  font-family: $font-family;
+  font-weight: bolder;
 }
 
 .shop__merch {
