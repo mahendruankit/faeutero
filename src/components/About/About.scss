@@ -15,12 +15,32 @@
 
 .aboutSection__introduction {
   flex: 0 0 50%;
-  padding: 10px;
 }
 
 .aboutSection__avatar__image {
   width: 90%;
   height: auto;
+}
+
+.aboutSection__quote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 2.6em 10px;
+  padding: 0.5em 10px;
+  quotes: '\201C''\201D''\2018''\2019';
+}
+
+.aboutSection__quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.aboutSection__quote p {
+  display: inline;
 }
 
 @media screen and (max-width: 600px) {

@@ -49,17 +49,17 @@ section {
 
 section:nth-of-type(1) {
   height: auto;
-  background: $light-color;
+  background: white;
 }
 
 section:nth-of-type(2) {
+  background: $primary-color;
   height: auto;
-  background: $blue-color;
 }
 
 section:nth-of-type(3) {
   height: auto;
-  background: $contact-section-color;
+  background: white;
 }
 
 section:nth-of-type(4) {

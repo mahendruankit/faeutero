@@ -2,16 +2,15 @@
 
 .musicWidget {
   display: flex;
+  flex-direction: row;
   color: $dark-color;
-  text-align: center;
-  justify-content: center;
   background-color: $dark-color;
 }
 
 .musicWidget__item {
+  margin: 1em;
+  flex-grow: 1;
   color: $dark-color;
-  line-height: 1.5625em;
-  font-weight: 400;
 }
 
 @media screen and (max-width: 600px) {

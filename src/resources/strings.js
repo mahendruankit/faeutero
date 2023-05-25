@@ -7,6 +7,8 @@ const strings = {
     reactjswebsite: 'https://reactjs.org/',
     netlifywebsite: 'https://www.netlify.com/',
     firebasewebsite: 'https://firebase.google.com/',
+    spotifyartistlink:
+      'https://open.spotify.com/album/3LnfAjyH3aLCJdzeixxhEA?si=BIWvbjhuSYeSY3bmY-NssQ',
     hillofbeansbandcamplink:
       'https://fae-utero.bandcamp.com/album/hill-of-beans',
     hobyoutubeplaylist:

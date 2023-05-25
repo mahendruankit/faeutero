@@ -17,13 +17,15 @@ const About = forwardRef((props, ref) => {
           <LatestVideo />
         </div>
         <div className='aboutSection__introduction'>
-          <h3>
+          <h2>
             <strong>
               <i>It's all in the music</i>
             </strong>
-          </h3>
+          </h2>
           <h3>
-            <strong>and the rave reviews are in...</strong>
+            <strong>
+              and the <i>rave</i> reviews are in...
+            </strong>
           </h3>
           <img
             src={imageResource.home.emotionalcringe}
@@ -31,6 +33,10 @@ const About = forwardRef((props, ref) => {
             className='aboutSection__avatar__image'
           ></img>
         </div>
+      </div>
+      <h1>HILL OF BEANS</h1>
+      <div className='aboutSection__quote'>
+        <p>something of negligible importance or value</p>
       </div>
     </section>
   );

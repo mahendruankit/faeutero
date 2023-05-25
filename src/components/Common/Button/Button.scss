@@ -15,15 +15,29 @@ button {
 }
 
 .button--primary {
-  background-color: $light-color;
-  border-color: $light-color;
-  color: $dark-color;
+  background-color: $primary-color;
+  color: $light-color;
+  font-weight: bolder;
 }
 
-.button--secondary {
+.button--primary:hover {
+  background-color: $hob;
+  color: $light-color;
+}
+
+.button--secondary:hover {
   background-color: $light-color;
-  border-color: $light-color;
-  color: $dark-color;
+  color: $light-color;
+}
+
+.button--primary:hover {
+  background-color: $hob;
+  color: $light-color;
+}
+
+.button--secondary:hover {
+  background-color: $light-color;
+  color: $light-color;
 }
 
 .button--small {
@@ -39,14 +53,4 @@ button {
 
 .button--large {
   font-size: 16px;
-}
-
-.button--primary:hover {
-  background-color: $primary-color;
-  color: $dark-color;
-}
-
-.button--secondary:hover {
-  background-color: $light-color;
-  color: $dark-color;
 }
