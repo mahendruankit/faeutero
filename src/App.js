@@ -10,6 +10,7 @@ import Shop from './components/Shop/Shop';
 import MusicWidget from './components/MusicWidget/MusicWidget';
 import LinkMe from './components/LinkMe/LinkMe';
 import './App.scss';
+import ReactGA from 'react-ga';
 
 function App() {
   const homeRef = useRef(null);
@@ -17,6 +18,9 @@ function App() {
   const contactRef = useRef(null);
   const linkMeRef = useRef(null);
   const shopRef = useRef(null);
+
+  const TRACKING_ID = 'G-434X390FMB'; // YOUR_OWN_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
 
   return (
     <div ref={homeRef} className='app'>
