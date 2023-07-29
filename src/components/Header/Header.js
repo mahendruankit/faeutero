@@ -43,16 +43,16 @@ const Header = ({ refs }) => {
           <img src={imageResource.music.bandlogo} alt='band logo'></img>
         </a>
       </span>
-      <NavLink to='/about' activeClassName='selected'>
+      <NavLink to='/about'>
         <strong>About</strong>
       </NavLink>
-      <NavLink to='/shop' activeClassName='selected'>
+      <NavLink to='/shop'>
         <strong>Shop</strong>
       </NavLink>
-      <NavLink to='/contact' activeClassName='selected'>
+      <NavLink to='/contact'>
         <strong>Contact</strong>
       </NavLink>
-      <NavLink to='/linkme' activeClassName='selected'>
+      <NavLink to='/linkme'>
         <strong>Links</strong>
       </NavLink>
     </div>
