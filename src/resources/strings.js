@@ -8,7 +8,7 @@ const strings = {
     netlifywebsite: 'https://www.netlify.com/',
     firebasewebsite: 'https://firebase.google.com/',
     spotifyartistlink:
-      'spotify:album:3LnfAjyH3aLCJdzeixxhEA?si=_lxcNb5uTsS3irGAFU5i0A',
+      'spotify:album:0Kn6DjslFyS4Esu1yZvOoS?si=R8PfdpBXTW644hq85Gigtw',
     hillofbeansbandcamplink:
       'https://fae-utero.bandcamp.com/album/hill-of-beans',
     hobyoutubeplaylist:
@@ -21,8 +21,8 @@ const strings = {
     social: {
       soundcloud: 'https://soundcloud.com/user-67884008',
       youtube: 'https://www.youtube.com/channel/UCg2zJzFO0yrYL7YZ1aHXxkg',
-      spotify: ' https://open.spotify.com/album/3LnfAjyH3aLCJdzeixxhEA',
-      applemusic: 'https://music.apple.com/gb/album/hill-of-beans/1688939813',
+      spotify: 'https://open.spotify.com/album/0Kn6DjslFyS4Esu1yZvOoS',
+      applemusic: 'https://music.apple.com/gb/album/hill-of-beans/1710124819',
       bandcamp: 'https://fae-utero.bandcamp.com/album/hill-of-beans',
     },
     gdpr: 'Just a moment! This website uses cookies to enhance the user experience. If you continue to browse this site, you are agreeing to our use of cookies. You can disable cookies at any time within your browser settings.',
