@@ -14,7 +14,7 @@ import soundcloud from '../images/icons/soundcloud.png';
 import youtube from '../images/icons/youtube.png';
 import spotifylogo from '../images/icons/spotify-logo.png';
 import logo from '../images/logo.png';
-import websitelogo from '../images/icons/ankit-mahendru-website.jpeg';
+import websitelogo from '../images/icons/ankit-mahendru-website.jpg';
 
 const images = {
   portfolio: {
