@@ -8,7 +8,7 @@ const strings = {
     netlifywebsite: 'https://www.netlify.com/',
     firebasewebsite: 'https://firebase.google.com/',
     spotifyartistlink:
-      'spotify:album:0Kn6DjslFyS4Esu1yZvOoS?si=R8PfdpBXTW644hq85Gigtw',
+      'spotify:artist:2jgvsnDdf6qCve1pikbDqh?si=C558K4AWRuuDgo3agXa0iA',
     hillofbeansbandcamplink:
       'https://fae-utero.bandcamp.com/album/hill-of-beans',
     hobyoutubeplaylist:
