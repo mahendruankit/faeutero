@@ -50,7 +50,7 @@ export default function Social({ className }) {
       </div>
       <div className='social__item'>
         <a
-          href={stringResource.portfolio.social.bandcamp}
+          href={stringResource.portfolio.social.instagram}
           target='_blank'
           rel='noreferrer'
         >
