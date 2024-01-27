@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaYoutube, FaBandcamp, FaApple, FaSpotify } from 'react-icons/fa';
+import {
+  FaYoutube,
+  FaBandcamp,
+  FaApple,
+  FaSpotify,
+  FaInstagram,
+} from 'react-icons/fa';
 import stringResource from '../../resources/strings';
 import './Social.scss';
 
@@ -40,6 +46,15 @@ export default function Social({ className }) {
           rel='noreferrer'
         >
           <FaBandcamp />
+        </a>
+      </div>
+      <div className='social__item'>
+        <a
+          href={stringResource.portfolio.social.bandcamp}
+          target='_blank'
+          rel='noreferrer'
+        >
+          <FaInstagram />
         </a>
       </div>
     </div>
