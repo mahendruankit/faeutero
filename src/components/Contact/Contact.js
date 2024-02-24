@@ -34,7 +34,7 @@ const Contact = forwardRef((props, ref) => {
       <div className='contactSection__avatarContainer'>
         <div className='contactSection__avatar'></div>
       </div>
-      <form onSubmit={sendEmail} className='contactMe__form'>
+      <form onSubmit={sendEmail}>
         <div id='Name'>
           <Input
             size='large'

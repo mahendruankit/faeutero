@@ -13,9 +13,9 @@ const Shop = forwardRef((props, ref) => {
         <a
           target='_blank'
           rel='noreferrer'
-          href={stringResource.portfolio.hillofbeansbandcamplink}
+          href={stringResource.portfolio.bandcampURL}
         >
-          BUY ALBUM&nbsp;
+          BUY NOW&nbsp;
           <Emoji label='headphones' symbol='🎧' />
         </a>
         <a

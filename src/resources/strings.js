@@ -9,8 +9,7 @@ const strings = {
     firebasewebsite: 'https://firebase.google.com/',
     spotifyartistlink:
       'spotify:artist:2jgvsnDdf6qCve1pikbDqh?si=C558K4AWRuuDgo3agXa0iA',
-    hillofbeansbandcamplink:
-      'https://fae-utero.bandcamp.com/album/hill-of-beans',
+    bandcampURL: 'https://fae-utero.bandcamp.com/',
     hobyoutubeplaylist:
       'https://youtube.com/playlist?list=PLk00mpauZ5XGwLEu2Jm3IYQzwRJq54iJN',
     hobmerch:
